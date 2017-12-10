@@ -1,0 +1,36 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A: The diff command compared the two files and pointed out the lines that were different. I went over each line that was different between the 2 versions and then saw what was different. A careful look led me to identify the typo and errors.
+
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: Say for example, if the new version has introduced bugs in a working program, and now it's difficult to remember what was the original state of the file, instead of just debugging the entire file all over, it's beneficial to just retrieve the old version for comparison. This way mistakes can be easily identified and the programmer therefore, becomes more efficient.
+
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A: Pros: Flexibility to commit when you think it's the right time. You can logically group your changes to a commit. Creates less clutter if commits are carefully chosen.
+Cons: If you forget to commit for a long time, changes will be too many to compare conveniently. If you commit too frequently, there will be too many version.
+
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Git is designed for version control of coding files. These files are ususally many and interrelated to a version of an application, they need to be tracked together. Google Docs are designed to version control a text document or a workbook. These can be tracked individually.
+
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: Use git log to retrive id of the changes and then use git diff to compare 2 commit to find out differences.
+
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: I am confident now because I know how to retrieve an old working version using git-checkout and also to compare 2 versions to find changes using git-diff
+
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: To learn more about Git.
+
+
