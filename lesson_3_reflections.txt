@@ -5,5 +5,5 @@ A: In big projects, where more than one developer are involved, it's better to k
 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-A: It may so happen that other developers have update the same piece of code that I am working on and eventhough I am aware that they have done so, I am not ready yet to merge their changes with mine, and therefore, I want these changes to wait until I am ready else, the system will edit the file that I don't want it to edit at all.
+A: It may so happen that other developers have updated the same piece of code that I am working on and eventhough I am aware that they have done so, I am not ready yet to merge their changes with mine, and therefore, I want these changes to wait until I am ready else, the system will edit the file that I don't want it to edit at all.
 
