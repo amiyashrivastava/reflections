@@ -1,0 +1,8 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: When a repository is initialized, .git meta directory is created. We need it to work with GIT version control.
+
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: Stating area is an intermediate location between working directory and repository. It allows us to group files that must be committed together. Thereby, we can keep some files exclusively local in the working directory.
