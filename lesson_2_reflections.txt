@@ -6,3 +6,31 @@ A: When a repository is initialized, .git meta directory is created. We need it 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: Stating area is an intermediate location between working directory and repository. It allows us to group files that must be committed together. Thereby, we can keep some files exclusively local in the working directory.
+
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: We stage all logical changes together.
+
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Parallel versions. Branches will make sure that development can occur independently.
+
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: They help us in visualizing branch and commits and reachability.
+
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Merging 2 branches retains the changes from both branches and merge them together, resulting in cumulation of changes. Since, the 2 branches evolved independently, the changes are interleaved and sorted by timestamp.
+
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Whenever there aren't any conflicts, Git merges them automatically, thereby saving time. When there is conflict, Git highlights conflicts for user to resolve manually.
+
+
+
