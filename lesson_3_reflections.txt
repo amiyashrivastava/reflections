@@ -17,3 +17,14 @@ Q: What is the benefit of having a copy of the last known state of the remote st
 
 A: We can work offline to make and merge changes and then synch up when we are back online.
 
+
+Q:How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: Manual file exchange. Keeping track of versions manually. For a small project and few contributors probably the best but for big projects and large no of contributors, I'd easily lose track of changes with the manual approach.
+
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: Master branch is the productive branch and untested changes shouldn't be deployed directly there. Branches help prototype and test and when new features and bugs are working properly, then they can be merged with the master branch.
+
+
